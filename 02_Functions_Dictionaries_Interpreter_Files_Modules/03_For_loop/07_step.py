@@ -13,7 +13,7 @@
 # Sample Output:
 #
 # 4.5
-
+# i
 
 a = int(input())
 b = int(input())
