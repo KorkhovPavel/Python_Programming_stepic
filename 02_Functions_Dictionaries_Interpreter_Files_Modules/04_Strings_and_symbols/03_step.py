@@ -18,12 +18,22 @@
 # 40.0
 
 
-val = input()
-val = val.upper()
-counter = 0
-for i in val:
-    cou_G = val.count('G')
-    cou_C = val.count('C')
-    counter = cou_G + cou_C
-num = len(val)
-print((counter / num) * 100)
+# val = input()
+# val = val.upper()
+# counter = 0
+# for i in val:
+#     cou_G = val.count('G')
+#     cou_C = val.count('C')
+#     counter = cou_G + cou_C
+# num = len(val)
+# print((counter / num) * 100)
+
+
+s = 'abcdefghijk'
+print(s[3:6])
+print(s[:6])
+print(s[3:])
+print(s[::-1])
+print(s[-3:])
+print(s[:-6])
+print(s[-1:-10:-2])
