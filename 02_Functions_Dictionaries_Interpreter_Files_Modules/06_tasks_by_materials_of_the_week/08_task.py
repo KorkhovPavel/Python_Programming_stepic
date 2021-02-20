@@ -14,10 +14,10 @@
 
 num = int(input())
 lst = []
-for i in range(num + 1):
-    if i == 0:
+for i in range(num+1):
+    if i==0:
         continue
     else:
         for k in range(i):
-            lst.append(i)
-print(lst[:num])
+            lst.append(str(i))
+print(' '.join(lst[:num]))
