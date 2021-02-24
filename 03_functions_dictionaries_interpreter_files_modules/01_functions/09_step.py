@@ -19,11 +19,10 @@ def modify_list(l):
         if l[counter] % 2 == 0:
             l[counter] = int(l[counter] / 2)
         else:
-            print(l[counter])
             l.remove(l[counter])
             counter -= 1
         counter += 1
-        print(l)
+    print(l)
 
 
-modify_list([1, 2, 3, 4, 5, 6])
+modify_list([1, 5, 7, 3])
